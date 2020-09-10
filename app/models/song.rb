@@ -3,4 +3,5 @@ class Song < ActiveRecord::Base
 
   def artist_name
     self.artist.name
-  endend
+  end
+end
